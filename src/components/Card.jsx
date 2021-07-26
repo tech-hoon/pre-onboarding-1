@@ -2,7 +2,7 @@ import "../assets/css/Card.css";
 
 const Card = ({ id, email, body }) => {
   return (
-    <div className="CardBox">
+    <div className="card-box">
       <span className="row-1">
         <h1>Comment Id</h1>
         <h2>{id}</h2>

@@ -1,0 +1,29 @@
+.card-box {
+  width: 500px;
+  height: 193px;
+  border: 0.5px solid #ced4da;
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 14px 0;
+}
+
+.row-1,
+.row-2,
+.row-3 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.row-1 h1,
+.row-2 h1,
+.row-3 h1 {
+  margin-right: 12px;
+}
+
+h1 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+}
