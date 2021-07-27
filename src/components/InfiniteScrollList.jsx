@@ -2,7 +2,6 @@ import "../assets/css/InfiniteScrollList.css";
 import Card from "./Card";
 import { useState, useRef, useEffect } from "react";
 import { fetchData } from "../api/fetchData";
-// import useIntersection from "../hook/useIntersection";
 
 const InfiniteScrollList = () => {
   const [cards, setCards] = useState([]);
