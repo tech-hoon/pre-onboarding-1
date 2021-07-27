@@ -3,14 +3,12 @@ import "./assets/css/reset.css";
 import "./components/InfiniteScrollList";
 import InfiniteScrollList from "./components/InfiniteScrollList";
 
-function App() {
+const App = () => {
   return (
     <>
-      <div className="container">
-        <InfiniteScrollList />
-      </div>
+      <InfiniteScrollList />
     </>
   );
-}
+};
 
 export default App;
