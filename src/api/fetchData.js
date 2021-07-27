@@ -8,5 +8,5 @@ const fetcher = async (URL) => {
   }
 };
 
-export const getData = async (page, limit) =>
+export const fetchData = async (page, limit) =>
   await fetcher(`https://jsonplaceholder.typicode.com/comments?_page=${page}&_limit=${limit}`);
