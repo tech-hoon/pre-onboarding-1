@@ -24,13 +24,13 @@ npm install && npm start
 
 ## 3. 구조
 
-```jsx
+```html
 src/
 ㄴ components/
-		ㄴ Card.jsx
-		ㄴ InfiniteScrollList.jsx
+	ㄴ Card.jsx
+	ㄴ InfiniteScrollList.jsx
 ㄴ api/
-		ㄴ fetchData.js
+	ㄴ fetchData.js
 ㄴ App.jsx
 ```
 
