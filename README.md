@@ -18,7 +18,11 @@ API와 연동하여 무한 스크롤(Infinite Scroll)을 구현해보자 !
 
 ## 2. 설치 및 실행
 
-```jsx
+```bash
+git clone https://github.com/tech-hoon/pre-onboarding-1
+
+cd pre-onboarding-1
+
 npm install && npm start
 ```
 
