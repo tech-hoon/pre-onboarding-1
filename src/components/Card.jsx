@@ -1,6 +1,6 @@
 import '../assets/css/Card.css';
 
-const Card = ({ id, email, body }) => {
+const Card = ({ card: { id, email, body } }) => {
   return (
     <div className='card-box'>
       <span className='id'>

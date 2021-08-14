@@ -22,15 +22,14 @@ const InfiniteScrollList = () => {
       const newCards = await fetchData(page, LIMIT);
       newCards.length > 0 && setCards((prevCards) => [...prevCards, ...newCards]);
     };
-
     getCards();
   }, [page]);
 
   return (
     <>
       <div className='container'>
-        {cards.map(({ id, email, body }, key) => (
-          <Card id={id} email={email} body={body} key={key} />
+        {cards.map((card, key) => (
+          <Card card={card} key={key} />
         ))}
         <div className='observer' ref={ioRef}></div>
       </div>
