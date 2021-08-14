@@ -1,14 +1,15 @@
 ## 1. 과제 소개
 
-API와 연동하여 무한 스크롤(Infinite Scroll)을 구현해보자 !
+- 하얀마인드(HayanMind)에서 제공한 기업 과제
+- API와 연동하여 무한 스크롤(Infinite Scroll)을 구현해보자
 
 ### 1-1. 기술 스택
 
 `React` `React Hooks` `Intersection Observer API`
 
 **Intersection Observer API**
-
-- 리플로우 문제를 야기시키는 `getBoundingClientRect()` 함수를 사용하지 않기 위해서 사용
+- `IntersectionObserverEntry`의 속성을 활용하면 `getBoundingClientRect()`를 호출한 것과 같은 효과
+- 리플로우 현상을 방지
 
 ### 1-2. 구현 목록
 
